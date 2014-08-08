@@ -1,0 +1,4 @@
+boards.txt	/usr/share/arduino/hardware/mighty-1284p/
+bootloaders/optiboot/optiboot_atmega1284p.hex	/usr/share/arduino/hardware/mighty-1284p/bootloaders/optiboot
+bootloaders/standard/ATmegaBOOT_1284P.hex	/usr/share/arduino/hardware/mighty-1284p/bootloaders/standard
+variants/standard/pins_arduino.h	/usr/share/arduino/hardware/mighty-1284p/variants/standard

@@ -1,0 +1,55 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: mighty-1284p
+Upstream-Contact: Bas Wijnen <wijnen@debian.org>
+Source: https://github.com/wijnen/mighty-1284p
+
+Files:
+	boards.txt
+	variants/standard/pins_arduino.h
+	README.md
+Copyright:
+	Copyright 2014 Bas Wijnen <wijnen@debian.org>
+License: GPL-3+
+Comment:
+	The code is taken from https://github.com/maniacbug/mighty-1284p/ and
+	seems to be Maniacbug's work.  However, he does not claim copyright.
+
+Files:
+	bootloaders/*
+Copyright:
+	Copyright (c) 2003, Jason P. Kyle
+	Copyright (c) 2002, 2003, 2004, 2005, 2006, 2007  Eric B. Weddington
+	Copyright 2011-2012 Bill Westfield
+	Copyright 2014 Bas Wijnen <wijnen@debian.org>
+License: GPL-3+
+Comment:
+	Peter Knight is listed as author, but doesn't claim copyright anywhere.
+	Bill Westfield is listed as maintainer without claiming copyright.  I
+	have listed him as copyright holder for the period where he recorded
+	changes to the code.
+
+Files: debian/*
+Copyright: Copyright 2013-2014 Bas Wijnen <wijnen@debian.org>
+License: GPL-3+
+
+License: GPL-3+
+	This program is free software; you can redistribute it and/or modify it
+	under the terms of the GNU General Public License as published by the
+	Free Software Foundation; either version 3 of the License, or (at your
+	option) any later version.
+	.
+	The program is distributed in the hope that it will be useful, but
+	WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+	General Public License for more details.
+	.
+	You should have received a copy of the GNU General Public License along
+	with this program.  If not, see <http://www.gnu.org/licenses/>.
+	.
+	On Debian systems, version 3 of the GPL license can be found in
+	/usr/share/common-licenses/GPL-3 .
+	.
+	Note that you can either choose version 3 of the GPL, or any later
+	version of the license, as published by the Free Software Foundation.
+	Links to currently released versions are listed above for your
+	convenience only.

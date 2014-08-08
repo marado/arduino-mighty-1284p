@@ -1,0 +1,20 @@
+arduino-mighty-1284p (1-1) unstable; urgency=medium
+
+  * Fork upstream.
+  * Update README.md.
+  * Remove outdated copy of Arduino source tree.
+  * Build bootloaders from source.
+  * Remove alternative pinouts.
+  * Correct NUM_DIGITAL_PINS.
+  * Install only hex files for bootloaders.
+  * Depend on arduino-core instead of arduino.
+  * Update standards version.  (No changes needed.)
+  * Change maintainer to 3-D printer team.
+
+ -- Bas Wijnen <wijnen@debian.org>  Thu, 07 Aug 2014 20:30:45 -0400
+
+arduino-mighty-1284p (0~svn20130430-1) unstable; urgency=low
+
+  * Initial release. (Closes: #706503)
+
+ -- Bas Wijnen <wijnen@debian.org>  Tue, 30 Apr 2013 18:34:46 -0400

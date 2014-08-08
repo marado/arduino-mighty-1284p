@@ -1,0 +1,16 @@
+Source: arduino-mighty-1284p
+Section: electronics
+Priority: optional
+Maintainer: 3-D printer team <3dprinter-general@lists.alioth.debian.org>
+Uploaders: Bas Wijnen <wijnen@debian.org>
+Standards-Version: 3.9.5
+Homepage: https://github.com/wijnen/mighty-1284p
+Vcs-Git: https://anonscm.debian.org/cgit/3dprinter/packages/arduino-mighty-1284p.git
+
+Package: arduino-mighty-1284p
+Architecture: all
+Depends: arduino-core, ${misc:Depends}
+Description: Platform files for Arduino to run on ATmega1284P
+ Supported platforms:
+  Mighty 1284p using Optiboot
+  Original Mighty 1284p

@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	chmod a-x `find . -type f | grep -v ^./debian`
+	dh_auto_build
+	$(MAKE) -C bootloaders/optiboot
+	$(MAKE) -C bootloaders/standard
+
+override_dh_auto_clean:
+	$(MAKE) -C bootloaders/optiboot clean
+	$(MAKE) -C bootloaders/standard clean
+	dh_auto_clean
