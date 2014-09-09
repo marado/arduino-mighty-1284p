@@ -1,3 +1,9 @@
+arduino-mighty-1284p (1-1.nmu1) unstable; urgency=medium
+
+  * Fixing Build-Dependencies (Closes: #759250)
+
+ -- Marcos Daniel Marado Torres <mindboosternoori@gmail.com>  Tue, 09 Sep 2014 18:47:45 -0100
+
 arduino-mighty-1284p (1-1) unstable; urgency=medium
 
   * Fork upstream.

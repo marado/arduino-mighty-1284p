@@ -1,5 +1,5 @@
 Source: arduino-mighty-1284p
-Build-Depends: debhelper (>= 9), gcc-avr
+Build-Depends: debhelper (>= 9), gcc-avr, avr-libc
 Section: electronics
 Priority: optional
 Maintainer: 3-D printer team <3dprinter-general@lists.alioth.debian.org>
